@@ -1,0 +1,20 @@
+#main {
+    display: flex;
+    width: 100dvh;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 5rem; /* svg 파일이 font로 설정되어있음 */
+}
+
+#minus_button,
+#plus_button {
+    padding-top: 1rem; /* 10px = 1rem */ 
+    cursor: pointer;
+}
+
+#minus_button:hover,
+#plus_button:hover {
+    opacity: 0;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* font 가져옴 */
+
+html {
+    font-size: 62.5%;
+    font-family: "Albert Sans", sans-serif;
+}
+
+#main {
+    display: flex;
+    width: 100dvh;
+    height: 100dvb;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem; /* 50px */
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text_slider {
+    appearance: none;
+    background-color: black;
+    width: 50%;
+    height: 0.3rem;
+}
+
+#text_slider::-webkit-slider-thumb {
+    appearance: none;
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}

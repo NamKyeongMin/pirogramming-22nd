@@ -1,0 +1,13 @@
+.container {
+  width: 390px;
+  height: 100dvh;
+  margin: auto;
+  background-color: #000;
+}
+
+:root {
+  --gutter: 20px; /*양 옆 패딩값*/
+  --padding: 16px;
+  --heading: 2rem;
+  --body: 1.4rem;
+}

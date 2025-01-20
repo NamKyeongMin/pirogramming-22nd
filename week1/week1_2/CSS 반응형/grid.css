@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    /*
+    grid 하위요소 column의 비율설정
+    width가 minmax보다 작아지면 wrap되도록!
+    column 비율은 1:1:1.. 유지하도록!
+    */
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: aquamarine;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

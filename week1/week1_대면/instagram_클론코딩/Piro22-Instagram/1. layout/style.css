@@ -1,0 +1,6 @@
+.container {
+    width: 300px;
+    height: 100dvh; /*화면비율 단위*/
+    background-color: black;
+    margin: auto;
+}

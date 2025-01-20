@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+}
+
+.header__rightButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.header__username {
+  font-size: 1.6rem;
+}

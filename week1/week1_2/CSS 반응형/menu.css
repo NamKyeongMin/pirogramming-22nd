@@ -1,0 +1,39 @@
+.nav-container {
+    position: relative;
+}
+.hamburger {
+    display: none; /*기본은 보이지 않음, 모바일에서만 보이도록!*/
+    background-color: #333;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.nav-menu {
+    display: flex; /*가로, 세로 설정이 가능하기 때문에*/
+    gap: 10px;
+    background-color: #444;
+    padding: 10px;
+}
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 480px) {
+    /*모바일 화면 기준*/
+    .hamburger {
+        display: block; /*고정된 장소에 잘 보이도록!*/
+    }
+    .nav-menu {
+        display: none; /*모바일에서 보이지 않도록!*/
+        flex-direction: column; /*메뉴가 세로로 촤라락~ 나열!*/
+        position: absolute; /*nav-container가 기준점*/
+        top: 40px;
+        left: 0px;
+        background-color: #444;
+        width: 100%;
+    }
+    .nav-menu.show {
+        display: flex;
+    }
+}

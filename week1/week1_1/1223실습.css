@@ -1,0 +1,45 @@
+h1 {
+    color: green;
+    background-color: beige;
+    border: 2px solid darkgreen; /*테두리*/
+    text-shadow: 2px 2px 4px gray;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    opacity: 0.9; /*투명도*/
+}
+
+#title-2 {
+    /*폰트 디자인*/
+    font-size: 2rem;
+    font-family: "IBM Plex Sans KR", sans-serif; /*외부 폰트 사용하기 위함*/
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-align: center;
+
+    /*모양 디자인*/
+    width: 80%;
+    height: auto;
+    margin: 10px; /*바깥 여백*/
+    padding: 20px; /*내부 여백*/
+    border-radius: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 100vh;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.item {
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: "IBM Plex Sans KR", sans-serif; /*외부 폰트 사용하기 위함*/
+}

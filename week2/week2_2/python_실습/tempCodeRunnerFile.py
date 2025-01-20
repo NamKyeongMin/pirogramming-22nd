@@ -1,0 +1,1 @@
+Time.__init__(Time.hour, Time.minute, Time.second)

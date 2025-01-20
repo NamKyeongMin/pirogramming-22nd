@@ -1,0 +1,17 @@
+.responsive-image-container > img {
+    text-align: center;
+    margin: 20px;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .responsive-image-container > img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-image-container > img {
+        width: 90%;
+    }
+}
